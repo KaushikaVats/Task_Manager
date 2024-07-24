@@ -29,3 +29,19 @@ body{
      border:none;
      cursor: pointer;
 }
+
+ul{
+    padding:0;
+   list-style-type:none;
+}
+li{
+    padding:10px;
+    border-bottom:1px solid #ddd ;
+}
+li:last-child{
+    border-bottom: none;
+}
+
+li:hover{
+    background-color: plum
+}
