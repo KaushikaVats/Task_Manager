@@ -29,6 +29,9 @@ body{
      border:none;
      cursor: pointer;
 }
+#addTodo:hover{
+    background-color: plum;
+}
 
 ul{
     padding:0;
@@ -44,4 +47,63 @@ li:last-child{
 
 li:hover{
     background-color: plum
+}
+.filterBtn{
+   margin: 10px;
+   padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #5cabff;
+    color:white;
+    border:none;
+    cursor: pointer;
+    transition: background-color 0.3s
+}
+
+.filterBtn:hover{
+    background-color: plum;
+}
+.editbtn{
+    background-color: rgb(221, 255, 127);
+    color:black;
+    padding: 10px 10px;
+    margin: 5px;
+    border: none;
+    border-radius:5px;
+}
+
+.editbtn:hover{
+    background-color:green
+}
+.deletebtn{
+    background-color: rgb(235, 69, 18);
+    color:black;
+    padding: 10px 10px;
+    margin: 5px;
+    border: none;
+    border-radius:5px;
+}
+.deletebtn:hover{
+    background-color:green
+}
+.completedbtn{
+    background-color: rgb(28, 224, 94);
+    color:black;
+    padding: 10px 10px;
+    margin: 5px;
+    border: none;
+    border-radius:5px;
+}
+.completedbtn:hover{
+    background-color:green
+}
+
+.todoItem{
+     display :flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.completed{
+    text-decoration:line-through;
 }
